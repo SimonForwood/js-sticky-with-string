@@ -1,10 +1,17 @@
 [
     {   "title":"A Sticky",
         "desc":"Some description",
-        "element":"abc"
+        "element":"abc",
+        "color":"color2"
     },
     {   "title":"Another Sticky",
         "desc":"Some other description",
+        "color":"color3",
+        "element":"abc"
+    },
+    {   "title":"And here's another nice sticky",
+        "desc":"Lorem ipsuim",
+        "color":"color4",
         "element":"abc"
     }
 ]

@@ -2,8 +2,7 @@ var sh;
 
 window.onload = function () {
     
-    sh = new stickyHelper();
-    sh.loadFromJson("sampleStickies.json", document.getElementById("stickyPane"));
-
-    sh.addSticky(document.getElementById("stickyPane"), "And Another Note!", "This is a single created note!", null)
+    sh = new stickyHelper(document.getElementById("stickyPane"), withString = true);
+    sh.loadFromJson("sampleStickies.json");
+    sh.addSticky("And Another Note!", "This is a single created note!", 'color1', null)
 }
